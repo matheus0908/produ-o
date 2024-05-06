@@ -1,0 +1,105 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #add8e6; /* Cor de fundo do cabeçalho */
+    color: #add8e6; /* Cor do texto do cabeçalho */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para a logo */
+.logo img {
+    max-width: 200px; /* Largura máxima da logo */
+}
+
+/* Estilos para o conteúdo principal */
+.container {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 20px auto; /* Centralizar o conteúdo na página */
+    padding: 0 20px; /* Espaçamento interno */
+}
+
+/* Estilos para o título */
+h1 {
+    color: #333; /* Cor do texto do título */
+    text-align: center;
+}
+
+/* Estilos para o formulário */
+.form {
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilos para os rótulos e campos do formulário */
+label {
+    display: block; /* Exibir em bloco */
+    margin-bottom: 5px; /* Espaçamento inferior */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%; /* Largura total */
+    padding: 8px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Cantos arredondados */
+    box-sizing: border-box; /* Incluir padding e border na largura total */
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #add8e6; /* Cor de fundo */
+    color: #black; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor ao passar por cima */
+}
+
+button:hover {
+    background-color: #333; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%; /* Largura total */
+    border-collapse: collapse; /* Colapsar as bordas das células */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilos para as células de cabeçalho e corpo da tabela */
+th,
+td {
+    border: 1px solid #ccc; /* Borda */
+    padding: 8px; /* Espaçamento interno */
+}
+
+/* Estilos para as células do cabeçalho da tabela */
+th {
+    background-color: #add8e6; /* Cor de fundo */
+    color: #black; /* Cor do texto */
+    text-align: left; /* Alinhar à esquerda */
+}
+
+/* Estilos para as células do corpo da tabela */
+td {
+    text-align: center; /* Alinhar ao centro */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #add8e6; /* Cor de fundo do rodapé */
+    color: #black; /* Cor do texto do rodapé */
+    text-align: center; /* Alinhar ao centro */
+    margin-top: 250px;
+    padding: 20px 0; /* Espaçamento interno */
+}

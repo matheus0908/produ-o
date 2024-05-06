@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Produtividade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+    </header>
+    <div class="container">
+        <h1>Gestão de Produtividade</h1>
+        <div class="form">
+            <label for="setor">Setor:</label>
+            <input type="text" id="setor">
+            <label for="colaborador">Colaborador:</label>
+            <input type="text" id="colaborador">
+            <label for="data">Data:</label>
+            <input type="date" id="data">
+            <label for="produtividade">Produtividade:</label>
+<input type="text" id="produtividade" name="produtividade" placeholder="Digite a produtividade (números com vírgula)">
+
+            <button onclick="adicionarRegistro()">Adicionar Registro</button>
+        </div>
+        <button onclick="exportarParaExcel()">Exportar para Excel</button>
+        <table id="registros">
+            <thead>
+                <tr>
+                    <th>Setor</th>
+                    <th>Colaborador</th>
+                    <th>Data</th>
+                    <th>Produtividade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="registrosBody">
+                <!-- Aqui serão inseridas as linhas da tabela -->
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <div class="copyright">
+            &copy; Todos os direitos reservados por Otc.doc 2024
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
